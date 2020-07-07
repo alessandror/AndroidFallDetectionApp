@@ -135,9 +135,9 @@ public class FallDetectAlgo extends Thread {
 
     private void clear_data() {
         for (int i = 0; i < BUFSIZE; i++) {
-            buffer_ax[buffer_index] = 0.0;
-            buffer_ay[buffer_index] = 0.0;
-            buffer_az[buffer_index] = 0.0;
+            buffer_ax[i] = 0.0;
+            buffer_ay[i] = 0.0;
+            buffer_az[i] = 0.0;
         }
     }
 
